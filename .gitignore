@@ -1,0 +1,27 @@
+# ---- MounRiver / Eclipse 构建产物 ----
+obj/
+Debug/
+*.o
+*.d
+*.lst
+*.su
+*.map
+*.elf
+
+# ---- 本地专用，不发布 ----
+.dsh_analysis/
+.example/
+User/bak/
+.mrs/
+.settings/
+.vscode/
+.idea/
+*.bak
+*.bak-*
+
+# ---- 操作系统 ----
+Thumbs.db
+.DS_Store
+
+# 说明：firmware/ 下的 .bin / .hex 是刻意提交的预编译固件，
+# 所以这里不写 *.bin / *.hex 规则——否则固件会被一起忽略掉。
