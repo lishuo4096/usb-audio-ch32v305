@@ -257,7 +257,7 @@ Without it, this project would probably still be unfinished.
 
 ## Build and flash
 
-**Just flash `firmware/first_install_128k.bin`** — it is a complete 128 KB image containing both the application and the ISP, written with WCH-Link / SDI.
+**Just flash `firmware/first_install_128k.bin`** — it is a complete 128 KB image containing both the application and the ISP, written with WCH-Link / SDI. If you don't want to clone the whole repo, the same image is attached to [Releases](https://github.com/lishuo4096/usb-audio-ch32v305/releases).
 
 For updates, write only the application region: `firmware/app_only.bin` or `firmware/USBAudio.hex`, or use the `boot` command to enter the ISP and download with WCHISPTool. Once inside the tail ISP, **do not** download the full 128 KB image and **do not** chip-erase — that wipes the ISP itself.
 

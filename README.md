@@ -261,7 +261,7 @@ FU 关闭时，描述符移除 Feature Unit 并重连终端。Windows 共享播�
 
 ## 编译与烧录
 
-**直接烧 `firmware/first_install_128k.bin` 就行**——这是整合了 APP + ISP 的完整 128 KB 镜像，用 WCH-Link / SDI 烧进去即可。
+**直接烧 `firmware/first_install_128k.bin` 就行**——这是整合了 APP + ISP 的完整 128 KB 镜像，用 WCH-Link / SDI 烧进去即可。不想 clone 整个仓库的话，同一个镜像也挂在 [Releases](https://github.com/lishuo4096/usb-audio-ch32v305/releases) 里。
 
 后续升级只覆盖应用区：烧 `firmware/app_only.bin` 或 `firmware/USBAudio.hex`，也可以用串口 `boot` 进 ISP，再用 WCHISPTool 下载。进了尾区 ISP 之后**不要**下完整的 128 KB 镜像，也**不要**整片擦除，那会把 ISP 一起擦掉。
 
