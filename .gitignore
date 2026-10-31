@@ -18,6 +18,7 @@ User/bak/
 .idea/
 *.bak
 *.bak-*
+*.log
 
 # ---- 操作系统 ----
 Thumbs.db
