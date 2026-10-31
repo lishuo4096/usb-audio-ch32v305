@@ -281,7 +281,7 @@ Flash is 128 KB, SRAM 32 KB. The application region is 112 KB, followed by a 4 K
 - The board has rework marks — **do not populate parts marked NC**
 
 ## Hardware
-
+https://oshwhub.com/lishuo123/project_ppnjliwl
 Schematics, PCB, BOM and the complete development record (dozens of debug logs, captures, measurements) are published separately on the OSHWHub hardware project. This repository holds the firmware and this short introduction only.
 
 ## Credits
