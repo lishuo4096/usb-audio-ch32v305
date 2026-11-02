@@ -1,6 +1,7 @@
 # ---- MounRiver / Eclipse 构建产物 ----
+# 注意：不要忽略 Debug/ —— 这个工程里的 Debug/ 是源码目录（debug.c/debug.h），
+# 构建输出在 obj/。
 obj/
-Debug/
 *.o
 *.d
 *.lst
